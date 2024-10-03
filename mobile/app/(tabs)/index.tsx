@@ -26,6 +26,9 @@ export default function HomeScreen() {
         <ThemedText type="title">{user?.[0].name}</ThemedText>
         <HelloWave />
       </ThemedView>
+      <ThemedView style={styles.titleContainer}>
+        <ThemedText type="title">counter: {user?.[0].counter}</ThemedText>
+      </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>
